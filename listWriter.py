@@ -4,7 +4,7 @@ import itertools
 
 minLen = int(raw_input('Enter the minimum word length: '));
 maxLen = int(raw_input('Enter the maximum word length: '));
-simpList = raw_input("Generate simple wordlist? (y/n): ");
+simpList = raw_input('Generate simple wordlist? (y/n): ');
 if simpList == 'y':
 	charSet = 'abcdefghijklmnopqrstuvwxyz';
 elif simpList == 'n':
