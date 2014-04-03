@@ -12,7 +12,7 @@ elif simpList == 'n':
 listName = raw_input('Name for the wordlist file to be created: ');
 
 for l in range(minLen,maxLen):
-	word = itertools.combinations(charSet, l)
+	word = itertools.permutations(charSet, l)
 
 	for i in word:
 		file = open(listName, 'a');
